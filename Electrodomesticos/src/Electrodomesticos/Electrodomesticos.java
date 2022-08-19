@@ -1,6 +1,6 @@
 package Electrodomesticos;
 
- public class Electrodomesticos {
+ public  class Electrodomesticos  {
 	 
  private String Marca;
  private String color;

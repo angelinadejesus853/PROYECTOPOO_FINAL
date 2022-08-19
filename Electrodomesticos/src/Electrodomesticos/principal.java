@@ -22,9 +22,8 @@ public class principal {
         
     JOptionPane.showMessageDialog(null,"\n DATOS DE LA LAVADORA: "+"\n MARCA: "+lav.getMarca()+"\n COLOR: "+ lav.getColor()+ "\n TAMAÑO:"+lav.getTamaño()+"\n Modelo:"+lav.getModelo()+ "\n Precio:"+lav.getPrecio()+"\n CAPACIDAD:"+lav.getCapacidad()+"\n DISTRIBUIDOR:"+lav.getDistribuidor()+"\n velocidad:"+lav.getVelocidad());
    
-   
     
-    plancha plan =new plancha("RECORD", "Rojo"," 37.0 x 47.0 cm"," HJ-3000.",900,1.800,"PLANCHA DE VAPOR",120);
+    plancha plan =new plancha("RECORD","Rojo","37.0 x 47.0 cm" ," HJ-3000.",900, 1800,"PLANCHA DE VAPOR",120);
     plan.mostrarDatos();
    
     JOptionPane.showMessageDialog(null,"\n DATOS DE LA PLANCHA: "+"\n MARCA: "+plan.getMarca()+"\n COLOR: "+ plan.getColor()+ "\n TAMAÑO:"+plan.getTamaño()+"\n Modelo:"+plan.getModelo()+ "\n Precio:"+plan.getPrecio()+"\n CAPACIDAD:"+plan.getCapacidad()+"\n TIPO:"+plan.getTipo()+"\n NIVELES TEMPERATURA: "+plan.getNivelesTemperatura()+"°c");

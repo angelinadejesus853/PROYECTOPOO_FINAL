@@ -38,8 +38,10 @@ public class Lavadora extends Electrodomesticos{
 	public void setNumero_serie(String numero_serie) {
 		this.numero_serie = numero_serie;
 	}
+
+	
+	
 	
 	
 
 }
-

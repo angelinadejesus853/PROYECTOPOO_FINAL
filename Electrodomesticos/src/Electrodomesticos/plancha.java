@@ -2,6 +2,12 @@ package Electrodomesticos;
 
 public class plancha extends Electrodomesticos {
 	
+	public plancha(String marca, String color, String tamaño, String modelo, double precio, double capacidad,
+			String tipo, int nivelesTemperatura) {
+		super(marca, color, tamaño, modelo, precio, capacidad);
+		this.tipo = tipo;
+		this.nivelesTemperatura = nivelesTemperatura;
+	}
 	private String tipo;
 	private int nivelesTemperatura;
 	
@@ -17,12 +23,7 @@ public class plancha extends Electrodomesticos {
 	public void setNivelesTemperatura(int nivelesTemperatura) {
 		this.nivelesTemperatura = nivelesTemperatura;
 	}
-	public plancha(String marca, String color, String tamaño, String modelo, double precio, double capacidad,
-			String tipo, int nivelesTemperatura) {
-		super(marca, color, tamaño, modelo, precio, capacidad);
-		this.tipo = tipo;
-		this.nivelesTemperatura = nivelesTemperatura;
-	}
+	
 	
 	 public void mostrarDatos () {
 		 System.out.println("\n PLANCHA:"+ "\n MARCA: "+ getMarca()+"\n COLOR:"+getColor()+"\n TAMAÑO: "+getTamaño()+
